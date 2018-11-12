@@ -1,4 +1,4 @@
-from animaux import BaseAnimal
+from animaux.baseanimal import BaseAnimal
 
 class Chat(BaseAnimal):
 
