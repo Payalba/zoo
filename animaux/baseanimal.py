@@ -29,7 +29,7 @@ class BaseAnimal(Thread):
 
     def dort(self):
         """ l'animal dort """
-        print("{} dort",format(self.nom))
+        print("{} dort".format(self.nom))
         self.__pause()
 
     def __pause(self):
